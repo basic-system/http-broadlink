@@ -1,0 +1,89 @@
+<html>
+  <head>
+     <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+     <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet">
+     <link href="/static/css/my.css" rel="stylesheet">
+     <script src="http://code.jquery.com/jquery-latest.js"></script>
+     <script src="/static/js/bootstrap.min.js"></script>
+     <script src="/static/js/my.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="devices">{{title}}</title>
+  </head>
+  <body>
+	<div class="container">
+		<table class="table" id="common_table">
+          <caption>Device List</caption>
+		  <thead>
+			<tr>
+			  <th>Type</th>
+			  <th>Name</th>
+			  <th>MAC</th>
+			  <th></th>
+			  <th></th>
+			</tr>
+		  </thead>
+		  <tbody>
+  	{% for dev in devices %}
+		{%- if dev.type == 'RM2' %}
+		<tr id="tr_{{ dev.mac }}">
+      		<td>{{ dev.type}}</td>
+			<td class="edit name {{ dev.mac }}">{{ dev.name }}</td>
+			<td>{{ dev.mac }}</td>
+			<td>
+				{%- if dev.sensors.temperature %}
+				Temperature: {{ dev.sensors.temperature }}
+				{%- endif %}
+				<div class="pull-right"><a href="#" class="add_rm {{dev.mac}}">Add device</a></div>
+			</td>
+			<td class="remove {{ dev.mac }}">{%- if dev.removed %}x {%- endif %}</td>
+		</tr>
+			{%- for rm_device in dev.devices %}
+		<tr>
+			<td></td>
+			<td></td>
+			<td class="editrm {{ dev.mac }} {{ rm_device }}">{{ rm_device }}</td>
+			<td>
+				{%- for (button, info) in dev.devices[rm_device]['buttons'].items() %}
+				<a href="#" class="press_button {{ dev.mac }} {{ rm_device }} {{ button }}">
+					{{ button }}
+					</a>
+				{%- endfor %}
+				<div class="pull-right"><a href="#" class="add_button {{ rm_device }}">Learn</a>
+			</td>
+			<td class="rm_remove {{ rm_device }}">x</td>
+		</tr>
+			{%- endfor %}
+		{% else %}
+		<tr id="tr_{{ dev.mac }}">
+      		<td>{{ dev.type}}</td>
+			<td class="edit name {{ dev.mac }}">{{ dev.name }}</td>
+			<td>{{ dev.mac }}</td>
+			{% if dev.type == 'SP2' %}
+			<td>
+				<div class="material-switch pull-right">
+					<input class="checkbox {{ dev.mac }}" id="switch_{{ dev.mac }}" name="switch_{{ dev.mac }}" type="checkbox" {%- if dev.status == True %} checked {%- endif %}>
+					<label for="switch_{{ dev.mac }}" class="label-success"></label>
+            	</div>
+			</td>
+			{%- elif dev.type == 'A1' %}
+			<td>
+			  {%- if dev.sensors %}
+				Temperature: {{ dev.sensors.temperature }}
+				Humidity: {{ dev.sensors.humidity }}
+				Light: {{ dev.sensors.light }}
+				noise: {{ dev.sensors.noise }}
+				Air Quality: {{ dev.sensors.air_quality }}
+			  {%- endif %}
+			</td>
+			{%- else %}
+				<td></td>
+			{%- endif %}
+			<td class="remove {{ dev.mac }}">{%- if dev.removed %}x {%- endif %}</td>
+		</tr>
+		{%- endif %}
+	{% endfor %}
+		  </tbody>
+		</table>
+	</div>
+  </body>
+</html>

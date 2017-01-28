@@ -1,0 +1,70 @@
+[
+    {
+        "status": true, 
+        "mac": "34:ea:34:e3:ed:fa", 
+        "removed": false, 
+        "type": "SP2", 
+        "name": "34:ea:34:e3:ed:fa"
+    }, 
+    {
+        "status": true, 
+        "mac": "34:ea:34:e3:f0:cc", 
+        "removed": false, 
+        "type": "SP2", 
+        "name": "34:ea:34:e3:f0:cc"
+    }, 
+    {
+        "status": true, 
+        "mac": "34:ea:34:e3:f1:04", 
+        "removed": false, 
+        "type": "SP2", 
+        "name": "34:ea:34:e3:f1:04"
+    }, 
+    {
+        "sensors": {
+            "air_quality": "excellent", 
+            "light": "dark", 
+            "noise": "quiet", 
+            "temperature": 28.0, 
+            "humidity": 30.2
+        }, 
+        "removed": false, 
+        "type": "A1", 
+        "mac": "b4:43:0d:70:48:46", 
+        "name": "b4:43:0d:70:48:46"
+    }, 
+    {
+        "name": "b4:43:0d:9b:93:17", 
+        "devices": {
+            "new_device2": {
+                "buttons": {}
+            }, 
+            "living_room_2": {
+                "buttons": {
+                    "on": {
+                        "cmd": "6QBGAg8QBhgTDhENEwwFGhUMEwsHGQYYBxkGGQYYFQsVChMMFAsHFwcYFQsJFggXCBcXCwcXCRbe\nChQMEwwHGAcXFA0UChUKCRsTCxUKFAsIGhUMFwkJFwkWCBcJFgkXFAwUCxUJFgoIFwkWFgsHFwgX\nCRYWCQkWCBfhChUKFgkJFggZFgkWCRYNCBcVChUMFAoIGBUKFQsHFwkWCRcKHAgWFQoVChUJFwkJ\nFgoVFQoJFgwZCRcXCgkVCRfgCRUKFgsHFwgYFwoWChYPCBgVChULFQ4IFxYJFQoIFwgXChcJFwcc\nFgkXCRYKFQoIFgkWFwgJGAoWCBcWCgoVChbeChUKFgkIFgkXFgoWCRYKCRcWChcJGQoIGBQKFQoI\nGQcZCRUIFgkWGAkWCRYJFQoIGAsXFQoJFQoVCRcVCgkWCBbfChUKFQoJFwkXFQsUCxYJCBcVCRcK\nFQwJGRQKFQoIFgoWCBcIFwgWFgoVChUKFQoLFQgWFgkKFgkVChUWCgoVCRfeChUKFgkIFwgWFwkV\nCxUKCRYVChUKFQoIFxYJFQsHFwkWCBYKFgkXFQkWChsKFQoIFgkXFQ0JFQkXCBYWCgkWCBbfCRYL\nFQkIFwgXFQoVChUJChgUCxYJFgoJFhUKFQoIFgkXCBYJFgoWFgkWCxQKFgkIFwkXFQkLFwgWCBYX\nCggWCxXeChUKFQoIFwkWGAoWCRcKCBYWChULFQoIFxYJFQoJFwgYCRYIFwkWFwcWChUJFgoIFgkW\nFgkLFgsXChUWCwgVCQAF3BYK\n"
+                    }, 
+                    "off": {
+                        "cmd": "6QBKAgQbBRkMBAQMBRkUDBIMEw4RDgYYBRoUDRMNCRcIGBILFA0FGDYKBxgHGAkZExASCxUKFgoU\nDAUZ3AwUCwcYFAwIFwcXCRYJFxUJCRYUEhUKFQoWCggbBxkWChUKCBgJFhUKFgoJFxUKBxcJFwkW\nFAsWChUPFQoWCQkX3goVDgcYFAoJFggXCRYIFxULCBgVChUKFQ4VDAgXCBgUChUKCBgIFRYKFQoJ\nFhUKCBcIFwgXFQoVCRcKFQkVCggX3goWCQgXFQsIGgkWCRYIFxUKCBcVChUKFgkVCgkWCRYVCqsJ\nCh4IGhMKFQwIFxYJCRcIFggXFQoVChYJFgkVCgkW3goWCQgXFQoIGQkWCRgHFxYJCRUWCxUKFQsV\nCgwaBxYWDhUKCRYIFxUKFgkIFxcJCBcJFQkXFgkVCxYJFQoWCAkX3goVCwcXFgkIGQkXCBcKFhYK\nCRYWChYJFgkWCgkWCBgVChYIChYJFhUKFgoJFxcKCxYIFwgWFwkWCBgIFgkVCgkW3wkVCwcXFQoJ\nFggXCBcJFRcJCBYYCRYKFQoVCggYCBYWChYJCRYIFxUKFgkIFhcJCBcKFgkVFgoVCxQKFQkWCggX\n3woVCggXFg8JFggXCRcIFxUNCBcVChULFQkWCQkWCBYWChYKCBcJFRcIFgoIGBYLCBcIFgoWFgsW\nCRYKFgkYCQgY3QoYCQgXFQoJFwgXCRYIFxYJCBgVCxcLFggXCQkYCBYWChUKCRcIFxUJFgoJFxUK\nCRYIFwgWFgsVCxQLFgkVCwcABdwJFRYLFQoVCxUKDBoHFg==\n"
+                    }
+                }
+            }, 
+            "living_room_1": {
+                "buttons": {
+                    "on": {
+                        "cmd": "6QBUAgQEBAYEDwUbBRoRDQUcBBkGGRMMFAsVDQUYBhkTDBMNEgwGGRMPBRgHGwYZEwwVCwcYCBYI\nGBQMNgkUDAcXFAsIF90MFA4UCgkXBxcWCQkWCRkHGhQKFwoUCggXCRcVCxYLFQ0IFhYJCBcIFwkW\nFgoVCwgXCRcKFhUKFQoVCwcXFQoIF94KFgkVCggXCBcVDQcXCRYIGBQMFQoVCwcXCBcVChYJFgkI\nFxUKCBYJFwgYFQgWCggYCRYIFxULFQoVCggXFgkJFt0LFgoYCQgYCBcWCQgXCBYJGBUKFQwVCggW\nChYVChUKFgoHFhYKCRYIFwkYFQoVCgkZChcJFhcIGQsWCQgYFwkIFuAJFQoWCQkWCRcWCQkWCBYJ\nFhcIFgoWCggXCRYWCRcJFgkIFxYJCBcJFQkZFAkWCwgXCBYJFxUKFQsWCQkWFggLFd8JFgkVCgoW\nCBYXCQgXChUIFhYLFQoYCgkVCRYXCRUKFQsIFhUJCRcIFwkWFQoVCwgWCRcJFhUKFQoWCAoXFAoI\nF94JFwkVCggXCRgUCgoXCRcHFxULFQoWCggWCRcWCRUJFgoJFhYJCBgOFgoWFQkWCwgXCRYKGBUN\nFQsVCggZFQoIF94KFQoWCwgWCRcVCgkWCBcIFhcJFggWCwcXCBYWChYKFQoKGBYJCBgMFgkZFQoV\nCgkVChcJFRcJFgkVCggXFQkJFt8KFQoYCgoWChYVCwgYCBYJFxYNFQkWCggXCBYWChULFQsIFRcI\nChUKFwkYFQ4WCQgaCRYJGBULFQgWCggWFgkJAAXcFgkXCQ==\n"
+                    }, 
+                    "off": {
+                        "cmd": "6QCNAgQHBAUEFAQIBAcEBwQIBAQEBAQOBAQECgQMBAYEBQQEBgQJBA8EGwQEBAQHDgQEBgQEDwQE\nBBoGBAoNCwQGDAsEBA0GBAkOBhoEGRQMBwQJDRULBxkEGQYZEwwGGQYZCBcVCgYbEwwSDBQMEw0F\nFwgYBhkVCxILFgrdCwcXFQoWCwcYEw0UCxUJFgoIGQgXFgkUCxQOBhcJFwwXFgoIFwgXCBcWCQgY\nFgsWCT8JFQsNFgkXBxgUChYLFgnfCggXFAsVDAgXFgkWCRYJGQkIGAcXFgoVCRQLCxYJFggYFQoJ\nFgoWCRgWCggXFQ0VChUKFQoNFggXCRkVDBYJFgreCwcXFQoVCgkWFgoVChUKFQoKFggZFQoWChYJ\nCBcIFwkWFQoKGAkWCBcVCwgXFgkYCBUJFwkIGQkVChUXCRcIFgreCggXFQoWCQgYFwsWCRUKFQoI\nGAgXFQsUChUKCBoHFggWFgkKFQoXBxcVCgkVFgoVDBQKFQoJFQkWChUXChYJFw0AATcKCBgVChUK\nCBcWCRUKFQoVCggXCBgVDRYJFQoJFggXCRYVCgkYCRcIFxUKCRgWCRgKFgkVCQoWCRcLFRYKFQoV\nCt4KCRYWChUJCBgVCxQKFgkVCgkXCBcVCxUKFgkIFwgXCBcVCggXCRYIFhkICRgVChYKFBAWCQoU\nChcJFhYIFwgdCd4LDxcXChULCBcVChYJFgkVCggXCRYVCxQKFgkJFggXCRYVDAcXCBcIGBQKCRYV\nChUKFggWCggXCRUKFRYNFQwWCt4KCRYVChYKCBgVCRkIFgkWCwcXCRgUDRUKGQ4JFgkWCRcWCQgX\nCBkJFhYMCBgWCRUJGAgXCQgYCBcIGRYJFQoVAAXcFwgYFQ0WCRUKCRY=\n"
+                    }
+                }
+            }
+        }, 
+        "mac": "b4:43:0d:9b:93:17", 
+        "sensors": {
+            "temperature": 24.9
+        }, 
+        "removed": false, 
+        "type": "RM2"
+    }
+]
